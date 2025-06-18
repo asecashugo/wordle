@@ -1,0 +1,42 @@
+# Node modules (both frontend and backend)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# Build outputs
+dist/
+build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# Optional: TypeScript cache
+*.tsbuildinfo
+
+# Optional: macOS files
+*.DS_Store
+
+# Optional: logs and temp
+*.log
+temp/
+tmp/
+
+# Optional: React Native or Expo
+.expo/

@@ -1,0 +1,22 @@
+.wordle-board {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 40px auto;
+  width: max-content;
+}
+.wordle-row {
+  display: flex;
+  gap: 8px;
+}
+.wordle-box {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background: #fff;
+  box-sizing: border-box;
+}
