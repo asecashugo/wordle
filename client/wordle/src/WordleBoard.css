@@ -4,6 +4,8 @@
   gap: 8px;
   margin: 40px auto;
   width: max-content;
+  justify-content: center;
+  align-items: center;
 }
 .wordle-row {
   display: flex;
@@ -19,4 +21,16 @@
   font-size: 2rem;
   background: #fff;
   box-sizing: border-box;
+  text-transform: uppercase;
+  color: #000; /* Ensure text is rendered in black */
+}
+
+.wordle-box.correct {
+  background: #6aaa64; /* Green for correct letters */
+  color: #fff; /* White text for contrast */
+}
+
+.wordle-box.present {
+  background: #c9b458; /* Yellow for present letters */
+  color: #fff; /* White text for contrast */
 }
